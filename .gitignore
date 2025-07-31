@@ -1,0 +1,7 @@
+essentia/
+essentia_hpcp/
+essentia_key_detection/
+essentia_tonal_extractor/
+
+my_venv/
+build/
