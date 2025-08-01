@@ -28,6 +28,7 @@ add_custom_command(
   COMMAND libtool -static -o ${ESSENTIA_UTIL_STATIC_PATH}
     $<TARGET_OBJECTS:essentia_util_obj>
     ${ESSENTIA_PREFIX}/lib/libessentia.a
+    ${ESSENTIA_PREFIX}/lib/libchromaprint.a
     ${ESSENTIA_PREFIX}/lib/libavresample.a
     ${ESSENTIA_PREFIX}/lib/libavcodec.a
     ${ESSENTIA_PREFIX}/lib/libavformat.a

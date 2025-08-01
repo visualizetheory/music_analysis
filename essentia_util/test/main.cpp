@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
     std::cout << "Duration: " << essentiautil::computeDuration(audio) << " seconds" << std::endl;
 
     auto hpcpMatrix = essentiautil::computeHPCP(audio);
-    essentiautil::enhance(hpcpMatrix);
+    //essentiautil::enhance(hpcpMatrix);
     essentiautil::writeCSV("output/hpcp.csv", hpcpMatrix);
 
     std::string key = essentiautil::computeKey(audio);
